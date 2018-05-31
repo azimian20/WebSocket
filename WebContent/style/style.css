@@ -1,0 +1,79 @@
+#mainDiv {
+	background-color: rgb(235, 230, 230);
+	margin-left: 5%;
+	margin-top: 5%;
+	padding: 10px;
+	font-family: arial;
+	font-size: 13px;
+    display:table;
+    width:370px;
+    border-radius: 4px;
+    margin: auto;
+    
+}
+.title {
+	margin: 7px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.errorMessage {
+	margin: 5px;
+    font-size: 13px;
+    color: red;
+}
+
+.button {
+	padding: 5px 30px;
+    width: 100px;
+    box-sizing: border-box;
+    margin: 3px;
+	background-color: rgb(225, 220, 220);
+	border: 0;
+	font-size: 13px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button-high {
+	background-color: rgb(255, 190, 0);
+}
+.userSelector {
+	padding: 3px 5px;
+    box-sizing: border-box;
+    margin: 3px;
+	background-color: rgb(220, 215, 215);
+	border: 0;
+	font-size: 10px;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.msgBox {
+	padding: 3px;
+	margin: 7px;
+	width: 350px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow: auto;
+    display: block;
+}
+.msgRoom {
+	padding: 3px;
+	margin: 7px;
+    background-color: rgb(245, 240, 240);
+	width: 350px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow: scroll;
+    display: block;
+    height:250px;
+}
+.input {
+	padding: 5px;
+	margin: 7px;
+	width: 150px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
